@@ -1,4 +1,4 @@
-import Aul from "/src/assets/aul.jpg"
+import Aul from "/src/assets/howl.jpg"
 
 const Frame = ()=>{
     return(
