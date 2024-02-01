@@ -1,7 +1,9 @@
+import Navbar from "../component/navbar/Navbar"
+
 const Project =()=>{
     return(
         <>
-        <h4>Page Not Found</h4>
+          <Navbar/>
         </>
     )
 

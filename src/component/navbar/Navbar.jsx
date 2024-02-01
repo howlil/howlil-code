@@ -3,10 +3,10 @@ import NavList from "./NavList"
 
 const Navbar = ()=>{
     return(
-        <div className="flex justify-between w-full ">  
-            <NavBrand/>
-            <NavList/>
-            <div></div>
+        <div className="navbar flex mt-5 justify-center">  
+            {/* <NavBrand/> */}
+            <NavList/>     
+            {/* <div></div>      */}
         </div>
     )
 }

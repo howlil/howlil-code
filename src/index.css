@@ -2,12 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/* *{
+border: 1px solid red;
+} */
+
 body {
   margin: 0;
-  display: flex;
   min-width: 320px;
   min-height: 100vh;
   background-color: #1A1A1A;
+}
+.title {
+  
+  color: transparent; /* Makes the text transparent so the background can show through */
+  background-image: linear-gradient(to bottom right, #fefefe, #454444fd); /* Left color #CCCCCC to right color #333333 */
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
 }
 
 .white-circle {
@@ -23,3 +33,5 @@ body {
   filter: blur(350px);
   -webkit-filter: blur(350px);
 }
+
+
