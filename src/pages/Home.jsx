@@ -6,7 +6,7 @@ const Home =()=>{
     return(
         <>
         <Navbar/>
-        <h1> helo</h1>
+
         </>
     )
 

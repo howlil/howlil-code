@@ -1,10 +1,7 @@
-
+import Aul from "/src/assets/aul.jpg"
 
 const NavBrand = ()=>{
-    return(
-        <>  
-     
-        </>
-    )
+    return<img className="w-10" src={Aul} alt="" />  
+    
 }
 export default NavBrand
