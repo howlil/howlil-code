@@ -7,7 +7,7 @@ const Project =()=>{
         <>
         <Container>
           <Navbar/>
-          <Card/>
+          <Card  />
         </Container>
         </>
     )

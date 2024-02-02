@@ -15,6 +15,16 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      {
+        test: /\.mdx?$/,
+        use: [
+          'babel-loader',
+          '@mdx-js/loader',
+        ],
+      },
     ],
+     
+ 
+  
   },
 }
