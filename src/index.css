@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   box-sizing: border-box;
-/* border: 1px solid red; */
+  /* border: 1px solid red; */
 }
 
 body {
@@ -18,24 +18,27 @@ body {
 
 
 .title {
-  color: transparent; /* Makes the text transparent so the background can show through */
-  background-image: linear-gradient(to bottom right, #E6C61E, #2e2702); /* Left color #CCCCCC to right color #333333 */
+  color: transparent;
+  /* Makes the text transparent so the background can show through */
+  background-image: linear-gradient(to bottom right, #e6e6e6, #262626);
+  /* Left color #CCCCCC to right color #333333 */
   background-clip: text;
-  -webkit-background-clip: text; /* For Safari */
+  -webkit-background-clip: text;
+  /* For Safari */
 }
 
 .white-circle {
   width: 1052px;
   height: 1052px;
   position: absolute;
-  /*Untukmengaturposisielemen*/bottom: 100px ;
+  /*Untukmengaturposisielemen*/
+  bottom: 100px;
   right: 700px;
   z-index: -1;
-  /*Untukmengaturlapisandibelakangelemenlain*/border-radius: 1252px;
+  /*Untukmengaturlapisandibelakangelemenlain*/
+  border-radius: 1252px;
   opacity: 0.5;
   background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, rgb(255, 255, 255) 100%);
   filter: blur(350px);
   -webkit-filter: blur(350px);
 }
-
-
