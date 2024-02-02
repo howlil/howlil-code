@@ -1,12 +1,15 @@
 // import React from "react"
 import Navbar from "../component/navbar/Navbar"
 import Hero from "../component/hero/Hero"
+import Container from "../component/util/Container"
 
 const Home =()=>{
     return(
         <>
-        <Navbar/>
-        <Hero/>
+        <Container>
+            <Navbar/>
+            <Hero/>
+        </Container>
         </>
     )
 

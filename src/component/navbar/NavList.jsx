@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const NavList = () => {
   return (
     <nav className="border rounded-full px-3 border-gray-300">
-      <ul className="flex justify-between align-middle items-center ">
+      <ul className="flex justify-between  m-0 ">
         <li className="text-gray-300 px-3 py-2 ">
           <Link
             to="/About"
