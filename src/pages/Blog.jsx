@@ -1,6 +1,7 @@
 import Navbar from "../component/navbar/Navbar"
 import Container from "../component/Container"
 
+
 const Blog =()=>{
     return(
         <>

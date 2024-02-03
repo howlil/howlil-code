@@ -1,5 +1,6 @@
 export const dataProject = [
     {
+      id:'Personal Project',
       title : 'Vanila JS Project',  
       describtion : 'a collection of project front end used vanilla JS',
       tag : 'HTML,CSS,JS',
@@ -8,6 +9,7 @@ export const dataProject = [
 
     },
     {
+      id:'Personal Project',
       title : 'codedesign.dev      ',  
       describtion : '   a collection Static Web project that slicing ui from codedesign.dev web',
       tag : 'Bootstrap,JS,SCSS,React,Tailwind,HTML',
@@ -16,6 +18,7 @@ export const dataProject = [
 
     },
     {
+      id : 'Practice DSA',
       title : 'leetcode-solves      ',  
       describtion : '   a collection of programming problem solving at LeetCode',
       tag : 'Java,Sql,JS',
@@ -24,6 +27,7 @@ export const dataProject = [
 
     },
     {
+      id:'Practice DSA',
       title : 'hackerrank-solves      ',  
       describtion : ' a collection of programming problem solving at HackerRank',
       tag : 'Python,Java,C++',

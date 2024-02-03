@@ -27,7 +27,7 @@ body {
   /* For Safari */
 }
 
-.white-circle {
+/* .white-circle {
   width: 1052px;
   height: 1052px;
   position: absolute;
@@ -41,4 +41,4 @@ body {
   background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, rgb(255, 255, 255) 100%);
   filter: blur(350px);
   -webkit-filter: blur(350px);
-}
+} */
