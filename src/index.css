@@ -19,8 +19,8 @@ body {
 
 .title {
   color: transparent;
-  /* Makes the text transparent so the background can show through */
-  background-image: linear-gradient(to bottom right, #e6e6e6, #262626);
+  line-height: 45px;
+  background-image: linear-gradient(to bottom right, #97ff66, #262626);
   /* Left color #CCCCCC to right color #333333 */
   background-clip: text;
   -webkit-background-clip: text;

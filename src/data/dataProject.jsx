@@ -8,6 +8,14 @@ export const dataProject = [
 
     },
     {
+      title : 'codedesign.dev      ',  
+      describtion : '   a collection Static Web project that slicing ui from codedesign.dev web',
+      tag : 'Bootstrap,JS,SCSS,React,Tailwind,HTML',
+      link : 'https://leetcode.com/howlil/',
+      github : 'https://github.com/howlil/leetcode-solves',
+
+    },
+    {
       title : 'leetcode-solves      ',  
       describtion : '   a collection of programming problem solving at LeetCode',
       tag : 'Java,Sql,JS',
@@ -31,12 +39,5 @@ export const dataProject = [
       github : 'https://github.com/howlil/leetcode-solves',
 
     },
-    {
-      title : 'codedesign.dev      ',  
-      describtion : '   a collection Static Web project that slicing ui from codedesign.dev web',
-      tag : 'Bootstrap,JS,SCSS,React,Tailwind,HTML',
-      link : 'https://leetcode.com/howlil/',
-      github : 'https://github.com/howlil/leetcode-solves',
-
-    },
+ 
 ]

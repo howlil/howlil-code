@@ -25,7 +25,7 @@ const Card = () => {
         </p>
         <div className=" flex flex-wrap gap-2">
           {Project.tag.split(',').map((tag,index)=>(
-            <span key={index} className="px-4 py-1 rounded-md border text-xs text-amber-200 m-0">
+            <span key={index} className="px-4 py-1 rounded-md border text-xs text-lime-300 m-0">
               {tag.trim()}
             </span>
           ))}

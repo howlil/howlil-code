@@ -6,10 +6,10 @@ const Hero = () => {
   return (
     <div className="flex flex-col items-center justify-center gap-8 mt-20 ">
         <div className="flex flex-col items-center justify-center gap-2">
-        <Frame />
-        <Title />
+        <Frame/>
+        <Title/>
         </div>
-      <Sosmed />
+        <Sosmed/>
     </div>
   );
 };
