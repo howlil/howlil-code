@@ -11,7 +11,7 @@ const Card = () => {
   return (
    <div className="  flex flex-wrap justify-start  ">
     {dataProject.map((Project,index)=>(
-      <div key={index} className="max-sm:w-full  md:w-1/3 p-4 mt-3  hover:shadow-sm hover:bg-neutral-800 rounded-lg transition-all ease-in-out duration-500 ">
+      <div key={index} className="max-sm:w-full max-sm:border md:w-1/2 lg:w-1/3 p-4 mt-3  hover:shadow-sm hover:bg-neutral-800 rounded-lg transition-all ease-in-out duration-500 ">
         <div className="flex justify-between  items-center">
           <h1 className="text-gray-50 font-semibold text-xl">{Project.title}</h1>
           {Project.github && (

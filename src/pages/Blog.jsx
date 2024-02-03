@@ -1,17 +1,16 @@
 import Navbar from "../component/navbar/Navbar"
 import Container from "../component/Container"
-import Profile from "../component/Profile"
 
-const About =()=>{
+const Blog =()=>{
     return(
         <>
         <Container>
           <Navbar/>
-          <Profile/>
+          <h1 className="text-white  text-xl ">Blog belum dibikin :/</h1>
         </Container>
         </>
     )
 
 }
 
-export default About
+export default Blog

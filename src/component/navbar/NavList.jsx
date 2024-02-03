@@ -10,16 +10,16 @@ const NavList = () => {
 
   return (
     <>
-      <div className='text-white fixed right-6 cursor-pointer lg:hidden' onClick={() => setIsMenuVisible(!isMenuVisible)}>
+      <div className='text-white fixed right-6 cursor-pointer md:hidden z-10'  onClick={() => setIsMenuVisible(!isMenuVisible)}>
         <FontAwesomeIcon className='active:text-neutral-800' icon={faBars} size="2x" />
       </div>
       {/* Menampilkan menu navigasi untuk tampilan mobile */}
-      <div className={`lg:hidden ${isMenuVisible ? 'flex' : 'hidden'} bg-neutral-700 border w-1/3 z-10 fixed right-14 top-7 rounded-lg flex-col text-center`}>
+      <div className={`md:hidden ${isMenuVisible ? 'flex' : 'hidden'} bg-neutral-700 border w-1/3 z-10 fixed right-14 top-7 rounded-lg flex-col text-center`}>
         {[
           ['About', '/About'],
           ['Project', '/Project'],
           ['Experience', '/Experience'],
-          ['Contact', '/Contact'],
+          ['Blog', '/Blog'],
         ].map(([title, url]) => (
           <NavLink
             key={title} // Menambahkan key untuk performa rendering yang lebih baik
@@ -34,12 +34,12 @@ const NavList = () => {
         ))}
       </div>
       {/* Menu navigasi untuk tampilan non-mobile (lg dan lebih besar) */}
-      <nav className='hidden lg:flex border rounded-full px-3 border-gray-300'>
+      <nav className='hidden md:flex border rounded-full px-3 border-gray-300'>
         {[
           ['About', '/About'],
           ['Project', '/Project'],
           ['Experience', '/Experience'],
-          ['Contact', '/Contact'],
+          ['Blog', '/Blog'],
         ].map(([title, url]) => (
           <NavLink
             key={title} // Menambahkan key untuk performa rendering yang lebih baik
