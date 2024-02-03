@@ -1,11 +1,10 @@
 import Navbar from "../component/navbar/Navbar"
-import Container from "../component/util/Container"
+import Container from "../component/Container"
 
 const About =()=>{
     return(
         <>
         <Container>
-
           <Navbar/>
         </Container>
         </>

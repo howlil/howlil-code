@@ -27,18 +27,18 @@ body {
   /* For Safari */
 }
 
-.white-circle {
+/* .white-circle {
   width: 1052px;
   height: 1052px;
   position: absolute;
-  /*Untukmengaturposisielemen*/
+
   bottom: 100px;
   right: 700px;
   z-index: -1;
-  /*Untukmengaturlapisandibelakangelemenlain*/
+
   border-radius: 1252px;
   opacity: 0.5;
   background: radial-gradient(50% 50% at 50% 50%, #ffffff 0%, rgb(255, 255, 255) 100%);
   filter: blur(350px);
   -webkit-filter: blur(350px);
-}
+} */

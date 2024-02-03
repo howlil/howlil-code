@@ -1,5 +1,5 @@
 import Navbar from "../component/navbar/Navbar"
-import Container from "../component/util/Container"
+import Container from "../component/Container"
 
 const Experience =()=>{
     return(
