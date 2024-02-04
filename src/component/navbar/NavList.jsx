@@ -10,7 +10,7 @@ const NavList = () => {
 
   return (
     <>
-      <div className='text-white fixed right-6 cursor-pointer md:hidden z-10'  onClick={() => setIsMenuVisible(!isMenuVisible)}>
+      <div className='text-white fixed right-4 top-6 cursor-pointer md:hidden z-10'  onClick={() => setIsMenuVisible(!isMenuVisible)}>
         <FontAwesomeIcon className='active:text-neutral-800' icon={faBars} size="2x" />
       </div>
       {/* Menampilkan menu navigasi untuk tampilan mobile */}

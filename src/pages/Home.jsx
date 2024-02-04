@@ -15,7 +15,7 @@ const Home =()=>{
          data-aos-duration="1500" 
          data-aos-easing="ease-in-out"
          data-aos-anchor-placement="center-bottom">
-         <Navbar/>
+         <Navbar  />
          </div>
          <div 
          data-aos="fade-up"   

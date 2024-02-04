@@ -17,7 +17,7 @@ const Sorting = ({ selectCategory, setSelectCategory }) => {
                 onChange={(e) => setSelectCategory(e.target.value)}
                 className='mb-4 md:ml-3 px-2 py-2 rounded-lg bg-neutral-700 text-gray-50'
             >
-                <option  className="text-sm p-3" value="">Select Category</option>
+                <option  className="text-sm p-3" value="">All</option>
                 {categories.map((category, index) => (
                     <option 
                    
