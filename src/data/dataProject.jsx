@@ -1,39 +1,85 @@
 export const dataProject = [
-    {
-      id:'Personal Project',
-      title : 'Vanila JS Project',  
-      describtion : 'a collection of project front end used vanilla JS',
-      tag : 'HTML,CSS,JS',
-      link : 'https://howlil-vanilajs.vercel.app/',
-      github : 'https://github.com/howlil/vanila-js-project',
-
-    },
-    {
-      id:'Personal Project',
-      title : 'codedesign.dev      ',  
-      describtion : '   a collection Static Web project that slicing ui from codedesign.dev web',
-      tag : 'Bootstrap,JS,SCSS,React,Tailwind,HTML',
-      link : 'https://leetcode.com/howlil/',
-      github : 'https://github.com/howlil/leetcode-solves',
-
-    },
-    {
-      id : 'Practice DSA',
-      title : 'leetcode-solves      ',  
-      describtion : '   a collection of programming problem solving at LeetCode',
-      tag : 'Java,Sql,JS',
-      link : 'https://leetcode.com/howlil/',
-      github : 'https://github.com/howlil/leetcode-solves',
-
-    },
-    {
-      id:'Practice DSA',
-      title : 'hackerrank-solves      ',  
-      describtion : ' a collection of programming problem solving at HackerRank',
-      tag : 'Python,Java,C++',
-      link : 'https://leetcode.com/howlil/',
-      github : 'https://github.com/howlil/leetcode-solves',
-
-    },
-
-]
+  {
+    id: "Personal Project",
+    title: "Vanila JS Project",
+    describtion: "a collection of project front end used vanilla JS",
+    tag: "HTML,CSS,JS",
+    link: "https://howlil-vanilajs.vercel.app/",
+    github: "https://github.com/howlil/vanila-js-project",
+  },
+  {
+    id: "Personal Project",
+    title: "codedesign.dev      ",
+    describtion:
+      "   a collection Static Web project that slicing ui from codedesign.dev web",
+    tag: "Bootstrap,JS,SCSS,React,Tailwind,HTML",
+    link: "https://leetcode.com/howlil/",
+    github: "https://github.com/howlil/codedesign.dev",
+  },
+  {
+    id: "Practice DSA",
+    title: "leetcode-solves      ",
+    describtion: "   a collection of programming problem solving at LeetCode",
+    tag: "Java,Sql,JS",
+    link: "https://leetcode.com/howlil/",
+    github: "https://github.com/howlil/leetcode-solves",
+  },
+  {
+    id: "Practice DSA",
+    title: "hackerrank-solves      ",
+    describtion: " a collection of programming problem solving at HackerRank",
+    tag: "Python,Java,C++",
+    link: "www.hackerrank.com/profile/howlil",
+    github: "https://github.com/howlil/hackerrank-solves",
+  },
+  {
+    id: "Tugas Besar Kuliah",
+    title: "tubes-dsa-linkedlist       ",
+    describtion:
+      "A C++ big project that implements a Double Linked List Data Structure, Buble Sort and Sequential Algorithm, which saves data in a MySQL database",
+    tag: "Mysql,C++,Linked-List,Borland GUI",
+    link: "https://github.com/howlil/tubes-dsa-linkedlist",
+    github: "https://github.com/howlil/tubes-dsa-linkedlist",
+  },
+  {
+    id: "Tugas Besar Kuliah",
+    title: "tubes-daspro-array   ",
+    describtion:
+      "A C++ big project that implements Static Array 2D, Buble Sort Algorithm and Sequential Search Algorithm",
+    tag: "Algorithms,C++,Array,Sorting,Searching,Borland GUI",
+    link: "https://github.com/howlil/tubes-daspro-array",
+    github: "https://github.com/howlil/tubes-daspro-array",
+  },
+  {
+    id: "Tugas Besar Kuliah",
+    title: "tubes-database-ci4  ",
+    describtion: "An ottencoffee.co.id clone built using the PHP Codeigniter 4 framework, Bootstrap, SCSS, JS, MySQL, and the Myth authentication library.",
+    tag: "Mysql,PHP,JS,SCSS,Database Schema, Code Igniter",
+    link: "https://github.com/howlil/tubes-database-ci4 ",
+    github: "https://github.com/howlil/tubes-database-ci4 ",
+  },
+  {
+    id: "Tugas Besar Kuliah",
+    title: "tubes-oop-jdbc   ",
+    describtion: "A java big project that implements OOP SOLID, collection framework, exception ,and JDBC MYSQL",
+    tag: "Mysql,Java,Apache Maven,OOPS",
+    link: "https://github.com/howlil/tubes-oop-jdbc",
+    github: "https://github.com/howlil/tubes-oop-jdbc ",
+  },
+  {
+    id: "Pratikum Kuliah",
+    title: "pratikum-laravel   ",
+    describtion:"Several tasks in the internship member in the Laboratory Enterprise Applications",
+    tag: "Mysql,PHP,Laravel, Bootstrap",
+    link: "https://github.com/howlil/pratikum-laravel",
+    github: "https://github.com/howlil/pratikum-laravel",
+  },
+  {
+    id: "Pratikum Kuliah",
+    title: "pratikum-java    ",
+    describtion: "a collection of Java object oriented programming assignments for 4 months from regular classes and courses at Oracle",
+    tag: "Java,Java-FX,OOPS, Collection-Framework",
+    link: "https://github.com/howlil/pratikum-java ",
+    github: "https://github.com/howlil/pratikum-java ",
+  },
+];
