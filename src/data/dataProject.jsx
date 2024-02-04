@@ -35,13 +35,5 @@ export const dataProject = [
       github : 'https://github.com/howlil/leetcode-solves',
 
     },
-    {
-      title : 'hackerrank-solves      ',  
-      describtion : ' a collection of programming problem solving at HackerRank',
-      tag : 'Python,Java,C++',
-      link : 'https://leetcode.com/howlil/',
-      github : 'https://github.com/howlil/leetcode-solves',
 
-    },
- 
 ]

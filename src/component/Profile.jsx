@@ -2,7 +2,7 @@ import Aul from "/src/assets/aul.jpg";
 
 const Profile = () => {
   return (
-    <div className="md:mb-20 flex max-sm:space-y-11 md:space-x-9 lg:space-x-28 justify-between max-md:items-center max-md:flex-col">
+    <div className="max-sm:mb-12 flex max-sm:space-y-11 md:space-x-9 lg:space-x-28 justify-between max-md:items-center max-md:flex-col">
       <img
         src={Aul}
         alt="aul"

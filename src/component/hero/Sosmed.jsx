@@ -16,7 +16,7 @@ const Sosmed = () => {
     <div className='flex gap-4'>
       {linkMe.map((item) => (
         <Link to={ item.href } target="_blank" key={item.name}>
-          <FontAwesomeIcon icon={iconMapping[item.icon]} size="2x" className="text-gray-300 hover:text-lime-300" />
+          <FontAwesomeIcon icon={iconMapping[item.icon]} size="2x" className="text-gray-300 hover:text-lime-300 transition-all duration-500 ease-in-out" />
         </Link>
       ))}
     </div>
