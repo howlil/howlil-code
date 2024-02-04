@@ -7,7 +7,7 @@ const About =()=>{
     return(
         <>
         <Container>
-          <Navbar/>
+          <Navbar />
           <Profile/>
         </Container>
         </>

@@ -3,9 +3,10 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
+
 const Card = ({ projects }) => {
     return (
-        <div className="flex flex-wrap justify-start max-sm:mb-12">
+        <div className="flex flex-wrap justify-start max-sm:mb-12" >
             {projects.map((project, index) => (
                 <div key={index} className="max-sm:w-full max-sm:border md:w-1/2 lg:w-1/3 p-4 mt-3 hover:shadow-lg hover:bg-neutral-700 rounded-lg transition-all ease-in-out duration-300 ">
                     <div className="flex justify-between items-center">
