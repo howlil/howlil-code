@@ -3,7 +3,7 @@ import { edu, experience,organization } from "../data/expertData";
 
 const Resume = () => {
   return (
-    <div className="p-8 max-sm:p-1 md:mb-20 hover:bg-neutral-900 transition-all duration-500 ease-in-out rounded-xl">
+    <div className="p-8 max-sm:p-1  hover:bg-neutral-900 transition-all duration-500 ease-in-out rounded-xl">
         <section>
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 ">Experience</h2>
         <div className="relative">
@@ -27,6 +27,8 @@ const Resume = () => {
         ))}
         </div>
         </section>
+
+
         <section>
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">Education</h2>
         <div className="relative">
@@ -50,6 +52,8 @@ const Resume = () => {
           ))}
         </div>
         </section>
+
+
         <section>
         <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-6 ">Organization</h2>
         <div className="relative">
