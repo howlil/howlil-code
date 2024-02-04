@@ -1,6 +1,7 @@
 import Navbar from "../component/navbar/Navbar"
 import Container from "../component/Container"
-import Profile from "../component/profile"
+import Profile from "../components/Profile";
+
 
 const About =()=>{
     return(
